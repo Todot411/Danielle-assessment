@@ -1,0 +1,48 @@
+/*MAIN PAGE */
+body {
+    background-color: #242430;
+    color: palegoldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/*IMAGE*/
+.picture {
+    height: 300px;
+    border-radius: 20px;
+}
+
+/*MAIN SECTION*/
+
+button {
+    background-color: palegoldenrod;
+    color: #242430;
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    width: 180px;
+    float: left;
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+.description {
+    padding: 15px;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+}
